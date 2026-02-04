@@ -24,8 +24,10 @@ Die Benchmark-Ergebnisse werden als `results.csv` gespeichert und anschließend 
   - `matplotlib`
 
 > Hinweis (macOS/conda):  
-> Falls `python3` auf das System-Python zeigt (z.B. `/Library/Frameworks/...`), nutze für die Plots die conda-Python-Variante (`python`).  
-> Prüfen kannst du das mit `which python` und `which python3`.
+> Wenn `python3` bei dir auf das System-Python zeigt (z.B. `/Library/Frameworks/...`), dann laufen die Plots oft **ohne** die conda-Pakete.  
+> Nutze in dem Fall stattdessen die conda-Version: `python src/plot_results.py results.csv`.  
+> Prüfen kannst du das so: `which python` und `which python3`.
+
 
 ## Installation (Python Libraries)
 
